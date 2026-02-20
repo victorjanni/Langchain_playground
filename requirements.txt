@@ -16,3 +16,16 @@ langchain_huggingface
 faiss-cpu
 ipywidgets
 langchain_chroma
+langsmith
+beautifulsoup4
+langchain-groq
+langchain-core
+streamlit
+fastapi
+uvicorn
+langserve
+sse-starlette
+
+
+
+
