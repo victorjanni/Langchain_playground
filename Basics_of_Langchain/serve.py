@@ -3,15 +3,21 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 import os
+import sys
 from langserve import add_routes
 from dotenv import load_dotenv
+
+if sys.platform == "win32":
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+
 load_dotenv()
 
 groq_api_key=os.getenv("GROQ_API_KEY")
 model=ChatGroq(model="llama-3.1-8b-instant",groq_api_key=groq_api_key)
 
 #1. creating the prompt template
-system_template="Translate the following text into{language}:"
+system_template="Translate the following text into {language}:"
 prompt_template=ChatPromptTemplate.from_messages(
     [
         ('system',system_template),
