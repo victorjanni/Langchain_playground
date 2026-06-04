@@ -26,6 +26,10 @@ uvicorn
 langserve
 sse-starlette
 langchain-google-genai
+pydantic
+duckduckgo-search
+langchain_experimental
+
 
 
 
