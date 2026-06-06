@@ -31,6 +31,7 @@ dependencies = [
     "pymupdf>=1.27.2.3",
     "pypdf>=6.12.2",
     "python-dotenv>=1.2.2",
+    "requests>=2.33.1",
     "sentence-transformers>=5.5.1",
     "sse-starlette>=3.4.4",
     "streamlit>=1.58.0",
