@@ -29,6 +29,8 @@ langchain-google-genai
 pydantic
 duckduckgo-search
 langchain_experimental
+langgraph
+
 
 
 

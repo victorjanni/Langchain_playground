@@ -25,6 +25,7 @@ dependencies = [
     "langchain-ollama>=1.1.0",
     "langchain-openai>=1.2.2",
     "langchain-text-splitters>=1.1.2",
+    "langgraph>=1.2.2",
     "langserve>=0.3.3",
     "langsmith>=0.8.8",
     "pydantic>=2.13.4",
