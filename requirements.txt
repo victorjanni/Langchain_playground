@@ -30,6 +30,7 @@ pydantic
 duckduckgo-search
 langchain_experimental
 langgraph
+langchain-anthropic
 
 
 
