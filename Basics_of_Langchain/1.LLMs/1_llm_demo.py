@@ -1,11 +1,11 @@
 
-from langchain_openai import ChatOpenAI
+from langchain_openai import OpenAI
 from dotenv import load_dotenv
 
 load_dotenv()
 
-llm = ChatOpenAI(model='gpt-5-mini')
+llm = OpenAI(model="gpt-3.5-turbo-instruct")
 response = llm.invoke("what is rag?")
 
-print(response.content)
+print(response)
 
